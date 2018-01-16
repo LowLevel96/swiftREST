@@ -14,6 +14,13 @@
 		249905492009F0C90015026A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249905472009F0C90015026A /* LaunchScreen.storyboard */; };
 		249905542009F0C90015026A /* PostRequestTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249905532009F0C90015026A /* PostRequestTestTests.swift */; };
 		2499055F2009F0C90015026A /* PostRequestTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2499055E2009F0C90015026A /* PostRequestTestUITests.swift */; };
+		249905862009F15E0015026A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249905782009F1580015026A /* Alamofire.framework */; };
+		24990588200A6F370015026A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24990587200A6F370015026A /* WelcomeViewController.swift */; };
+		2499058A200A7D910015026A /* OffersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24990589200A7D910015026A /* OffersTableViewController.swift */; };
+		2499058C200A865A0015026A /* OfferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2499058B200A865A0015026A /* OfferTableViewCell.swift */; };
+		2499058E200C92430015026A /* OfferDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2499058D200C92430015026A /* OfferDetailViewController.swift */; };
+		24990590200D58080015026A /* OfferCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2499058F200D58080015026A /* OfferCommentsViewController.swift */; };
+		24990592200D6CBE0015026A /* OfferCommentsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24990591200D6CBE0015026A /* OfferCommentsViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +38,55 @@
 			remoteGlobalIDString = 2499053A2009F0C90015026A;
 			remoteInfo = PostRequestTest;
 		};
+		249905772009F1580015026A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2499056C2009F1570015026A /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		249905792009F1580015026A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2499056C2009F1570015026A /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		2499057B2009F1580015026A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2499056C2009F1570015026A /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		2499057D2009F1580015026A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2499056C2009F1570015026A /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		2499057F2009F1580015026A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2499056C2009F1570015026A /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		249905812009F1580015026A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2499056C2009F1570015026A /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		249905832009F1580015026A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2499056C2009F1570015026A /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +103,13 @@
 		2499055A2009F0C90015026A /* PostRequestTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostRequestTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2499055E2009F0C90015026A /* PostRequestTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequestTestUITests.swift; sourceTree = "<group>"; };
 		249905602009F0C90015026A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2499056C2009F1570015026A /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Alamofire.xcodeproj; sourceTree = SOURCE_ROOT; };
+		24990587200A6F370015026A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		24990589200A7D910015026A /* OffersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTableViewController.swift; sourceTree = "<group>"; };
+		2499058B200A865A0015026A /* OfferTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferTableViewCell.swift; sourceTree = "<group>"; };
+		2499058D200C92430015026A /* OfferDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailViewController.swift; sourceTree = "<group>"; };
+		2499058F200D58080015026A /* OfferCommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCommentsViewController.swift; sourceTree = "<group>"; };
+		24990591200D6CBE0015026A /* OfferCommentsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCommentsViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249905862009F15E0015026A /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +145,7 @@
 				249905522009F0C90015026A /* PostRequestTestTests */,
 				2499055D2009F0C90015026A /* PostRequestTestUITests */,
 				2499053C2009F0C90015026A /* Products */,
+				249905852009F15E0015026A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +162,19 @@
 		2499053D2009F0C90015026A /* PostRequestTest */ = {
 			isa = PBXGroup;
 			children = (
+				2499056C2009F1570015026A /* Alamofire.xcodeproj */,
 				2499053E2009F0C90015026A /* AppDelegate.swift */,
 				249905402009F0C90015026A /* ViewController.swift */,
 				249905422009F0C90015026A /* Main.storyboard */,
 				249905452009F0C90015026A /* Assets.xcassets */,
 				249905472009F0C90015026A /* LaunchScreen.storyboard */,
 				2499054A2009F0C90015026A /* Info.plist */,
+				24990587200A6F370015026A /* WelcomeViewController.swift */,
+				24990589200A7D910015026A /* OffersTableViewController.swift */,
+				2499058B200A865A0015026A /* OfferTableViewCell.swift */,
+				2499058D200C92430015026A /* OfferDetailViewController.swift */,
+				2499058F200D58080015026A /* OfferCommentsViewController.swift */,
+				24990591200D6CBE0015026A /* OfferCommentsViewCell.swift */,
 			);
 			path = PostRequestTest;
 			sourceTree = "<group>";
@@ -123,6 +195,27 @@
 				249905602009F0C90015026A /* Info.plist */,
 			);
 			path = PostRequestTestUITests;
+			sourceTree = "<group>";
+		};
+		2499056D2009F1570015026A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				249905782009F1580015026A /* Alamofire.framework */,
+				2499057A2009F1580015026A /* Alamofire iOS Tests.xctest */,
+				2499057C2009F1580015026A /* Alamofire.framework */,
+				2499057E2009F1580015026A /* Alamofire macOS Tests.xctest */,
+				249905802009F1580015026A /* Alamofire.framework */,
+				249905822009F1580015026A /* Alamofire tvOS Tests.xctest */,
+				249905842009F1580015026A /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		249905852009F15E0015026A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +311,12 @@
 			mainGroup = 249905322009F0C90015026A;
 			productRefGroup = 2499053C2009F0C90015026A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2499056D2009F1570015026A /* Products */;
+					ProjectRef = 2499056C2009F1570015026A /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2499053A2009F0C90015026A /* PostRequestTest */,
@@ -226,6 +325,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		249905782009F1580015026A /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 249905772009F1580015026A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2499057A2009F1580015026A /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 249905792009F1580015026A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2499057C2009F1580015026A /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 2499057B2009F1580015026A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2499057E2009F1580015026A /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 2499057D2009F1580015026A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		249905802009F1580015026A /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 2499057F2009F1580015026A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		249905822009F1580015026A /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 249905812009F1580015026A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		249905842009F1580015026A /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 249905832009F1580015026A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		249905392009F0C90015026A /* Resources */ = {
@@ -259,7 +410,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2499058E200C92430015026A /* OfferDetailViewController.swift in Sources */,
+				24990592200D6CBE0015026A /* OfferCommentsViewCell.swift in Sources */,
+				24990588200A6F370015026A /* WelcomeViewController.swift in Sources */,
+				24990590200D58080015026A /* OfferCommentsViewController.swift in Sources */,
+				2499058C200A865A0015026A /* OfferTableViewCell.swift in Sources */,
 				249905412009F0C90015026A /* ViewController.swift in Sources */,
+				2499058A200A7D910015026A /* OffersTableViewController.swift in Sources */,
 				2499053F2009F0C90015026A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
